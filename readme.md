@@ -1,3 +1,26 @@
+##  Sobre o Projeto
+
+Este projeto contém testes manuais de API realizados na plataforma CoinMarketCap, utilizando a ferramenta Postman.
+
+O objetivo foi praticar testes de API como QA Júnior, validando regras de negócio, segurança, respostas da API e tratamento de erros.
+
+---
+
+##  Ferramentas Utilizadas
+
+- Postman
+- API CoinMarketCap (https://coinmarketcap.com/api/documentation/v1/#operation/getV2CryptocurrencyQuotesLatest)
+
+---
+
+##  Endpoints Testados
+
+- https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest
+
+---
+
+## Cenários de testes
+
 
 <table>
   <tr>
@@ -61,9 +84,19 @@
   <tr>
    <td>Status:
    </td>
-   <td>APROVADO image1
+   <td>APROVADO 
    </td>
   </tr>
+
+  <tr>
+   <td>Evidência:
+   </td>
+   <td>
+       <img src="evidence_images/image1.png" width="" alt="alt_text" title="image_tooltip">
+   </td>
+  </tr>
+
+
 </table>
 
 
@@ -130,7 +163,14 @@
   <tr>
    <td>Status:
    </td>
-   <td>APROVADO image2
+   <td>APROVADO 
+   </td>
+  </tr>
+  <tr>
+   <td>Evidência:
+   </td>
+   <td>
+       <img src="evidence_images/image2.png" width="" alt="alt_text" title="image_tooltip">
    </td>
   </tr>
 </table>
@@ -187,7 +227,15 @@
   <tr>
    <td>Status:
    </td>
-   <td>APROVADO image 3,4
+   <td>APROVADO 
+   </td>
+  </tr>
+  <tr>
+   <td>Evidência:
+   </td>
+   <td>
+       <img src="evidence_images/image3.png" width="" alt="alt_text" title="image_tooltip">
+     <img src="evidence_images/image4.png" width="" alt="alt_text" title="image_tooltip">
    </td>
   </tr>
 </table>
@@ -244,7 +292,14 @@
   <tr>
    <td>Status:
    </td>
-   <td>APROVADO image5
+   <td>APROVADO 
+   </td>
+  </tr>
+  <tr>
+   <td>Evidência:
+   </td>
+   <td>
+       <img src="evidence_images/image5.png" width="" alt="alt_text" title="image_tooltip">
    </td>
   </tr>
 </table>
@@ -381,7 +436,14 @@
   <tr>
    <td>Status:
    </td>
-   <td>APROVADO image6
+   <td>APROVADO 
+   </td>
+  </tr>
+  <tr>
+   <td>Evidência:
+   </td>
+   <td>
+       <img src="evidence_images/image6.png" width="" alt="alt_text" title="image_tooltip">
    </td>
   </tr>
 </table>
@@ -450,7 +512,14 @@
   <tr>
    <td>Status:
    </td>
-   <td>APROVADO image7
+   <td>APROVADO 
+   </td>
+  </tr>
+  <tr>
+   <td>Evidência:
+   </td>
+   <td>
+       <img src="evidence_images/image7.png" width="" alt="alt_text" title="image_tooltip">
    </td>
   </tr>
 </table>
@@ -527,7 +596,7 @@
   <tr>
    <td>Status:
    </td>
-   <td>REPROVADO image8
+   <td>REPROVADO
    </td>
   </tr>
   <tr>
@@ -536,5 +605,11 @@
    <td>Retornou status 200, porém,  ele responde que encontrou a moeda mas retorna com objeto vazio.
    </td>
   </tr>
+  <tr>
+   <td>Evidência:
+   </td>
+   <td>
+       <img src="evidence_images/image8.png" width="" alt="alt_text" title="image_tooltip">
+   </td>
+  </tr>
 </table>
-
